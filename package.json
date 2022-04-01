@@ -1,0 +1,11 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wixzi/smart-contracts.git",
+  "author": "Wixzi <102727631+wixzi@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.9.2"
+  }
+}
