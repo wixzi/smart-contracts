@@ -12,6 +12,6 @@ describe('first contract', function () {
     // Awaits contract is deployed to network
     await hello.deployed();
 
-    expect(await hello.hello()).to.equal('Hello, First Contract');
+    expect(await hello.hello()).to.equal('Hello, First Contract !!!');
   });
 });
