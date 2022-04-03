@@ -11,7 +11,7 @@ describe('first contract', function () {
     const hello = await HelloWorld.deploy();
     // Awaits contract is deployed to network
     await hello.deployed();
-
     expect(await hello.hello()).to.equal('Hello, First Contract !!!');
+    console.log('Deployed to:', hello.address);
   });
 });
